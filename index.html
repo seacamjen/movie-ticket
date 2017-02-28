@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <meta charset="utf-8">
+    <title>Movie Tickets</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Find The movie you want!</h1>
+      <form id="movieTicket">
+        <div class="form-group">
+          <h2>Please select movie:</h2>
+          <div class="radio">
+              <label><input type="radio" name="movie" value="g">The Lego Batman Movie</label>
+          </div>
+          <div class="radio">
+            <label><input type="radio" name="movie" value="r">Fist Fight</label>
+          </div>
+          <div class="radio">
+            <label><input type="radio" name="movie" value="pg">The Great Wall 3D</label>
+          </div>
+        </div>
+        <div class="form-group">
+          <h2>Please select time:</h2>
+          <div class="radio">
+              <label><input type="radio" name="time" value="less">10am to 5pm</label>
+          </div>
+          <div class="radio">
+            <label><input type="radio" name="time" value="more">5pm to 12am</label>
+          </div>
+        </div>
+        <div class="form-group">
+          <h2>Please select age:</h2>
+          <div class="radio">
+              <label><input type="radio" name="age" value="young">18 and under</label>
+          </div>
+          <div class="radio">
+            <label><input type="radio" name="age" value="middle">18 to 65</label>
+          </div>
+          <div class="radio">
+            <label><input type="radio" name="age" value="old">65 or above</label>
+          </div>
+        </div>
+        <button type="submit" class="btn">Submit</button>
+      </form>
+
+    </div>
+
+  </body>
+</html>
